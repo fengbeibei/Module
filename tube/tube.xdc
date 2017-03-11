@@ -1,0 +1,30 @@
+## Clock 100M
+set_property -dict {PACKAGE_PIN W5  IOSTANDARD LVCMOS33} [get_ports clk]	
+
+##7 duan_scanment display
+set_property PACKAGE_PIN W7 [get_ports {duan_scan[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[0]}]
+set_property PACKAGE_PIN W6 [get_ports {duan_scan[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[1]}]
+set_property PACKAGE_PIN U8 [get_ports {duan_scan[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[2]}]
+set_property PACKAGE_PIN V8 [get_ports {duan_scan[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[3]}]
+set_property PACKAGE_PIN U5 [get_ports {duan_scan[4]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[4]}]
+set_property PACKAGE_PIN V5 [get_ports {duan_scan[5]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[5]}]
+set_property PACKAGE_PIN U7 [get_ports {duan_scan[6]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[6]}]
+
+set_property PACKAGE_PIN V7 [get_ports {duan_scan[7]}]							
+	set_property IOSTANDARD LVCMOS33 [get_ports {duan_scan[7]}]
+
+set_property PACKAGE_PIN U2 [get_ports {wei_scan[3]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {wei_scan[3]}]
+set_property PACKAGE_PIN U4 [get_ports {wei_scan[2]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {wei_scan[2]}]
+set_property PACKAGE_PIN V4 [get_ports {wei_scan[1]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {wei_scan[1]}]
+set_property PACKAGE_PIN W4 [get_ports {wei_scan[0]}]					
+	set_property IOSTANDARD LVCMOS33 [get_ports {wei_scan[0]}]
